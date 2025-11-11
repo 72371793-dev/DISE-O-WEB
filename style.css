@@ -1,0 +1,98 @@
+body {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin:18mm;
+  padding: 3;
+  text-align:start;
+  image-orientation: from-image;
+  background-image:url(img/img3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+header {
+  font-family: Georgia,cursive;
+  background: linear-gradient(50deg, #f5719dfd, #de51fafd);
+  color: white;
+  padding: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  width: 85px;
+  animation-composition: initial;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1em;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #ffeb3b;
+}
+
+main {
+  padding: 2em;
+}
+
+.img1 {
+  width:"25%";
+  justify-content: center;
+}
+
+img2 {
+ width:"30%";
+ justify-content: center;
+}
+img4{
+  width:"25%";
+  justify-content: center;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 3em;
+  justify-content: center;
+  color-scheme: var(#e490f5fd);
+  border-color: rgb(186, 13, 212);
+}
+
+th, td {
+  border: 0.2cm solid #660ae7;
+  padding: 0.5em;
+  text-align:center;
+}
+
+caption {
+  border: 0.2cm solid #660ae7;
+  padding: 0.5em;
+  text-align:center;
+  text-decoration-color: #d77506;
+}
+
+th {
+  background-color: #2810da;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  max-width: 200px;
+}
+
+input, select, textarea {
+  padding: 0.5em;
+  border: 1px solid #f4af0f;
+  border-radius: 4px;
+}
