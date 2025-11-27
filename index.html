@@ -7,13 +7,14 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+   
   <header>
-    <h1 title="Página principal">Bienvenido a la página web de MSMR</h1>
+    <h1 title="Página principal"> Carrito de compras MSMR</h1>
     <img src="img/img2.jpg" alt="25%" class="logo" />
     <nav>
       <ul>
         <li><a href="index.html">Inicio</a></li>
-        <li><a href="index2.html">Sobre Mi</a></li>
+        <li><a href="index2.html">Historia</a></li>
         <li><a href="index3.html">Contacto</a></li>
       </ul>
     </nav>
@@ -22,7 +23,7 @@
         <div class="contenido">
             <h1> ¿Por qué se creó esta página?</h1>
             <p>
-              Mi página web fue creada de ejemplo para demostrar el uso del html5 y CSS, actualizando según los nuevos códigos en clases sobre diseño web</h1>
+              Mi página web fue creada de ejemplo para demostrar el uso del html5,javascript y CSS, actualizando según los nuevos códigos en clases sobre diseño web</h1>
             </p>
             <a href="index3.html">Más información</a>
         </div>
@@ -33,28 +34,45 @@
     <div class="seccion1">
      <h1>Introducción</h1>
       <p>
-      Para el diseño web es importante tener conocimientos de los códigos que se utilizan en los formatos html, como por ejemplo:
+      En esta tienda encontrarás una variedad de productos seleccionados, los tenemos clasificados de la siguiente manera:
       </p>
       <table>
-        <caption>Elementos para HTML5</caption>
+        <caption>Productos</caption>
         <tr>
-          <td>Tablas</td>
-          <td>Permiten clasificar información.</td>
+          <td>Verduras</td>
+          <td>Apio, poro, brócoli, zapallo, etc;A SOLO 5 SOLES EL KILO!!..</td>
         </tr>
         <tr>
-          <td>Formularios</td>
-          <td>Permiten interactuar con la página.</td>
+          <td>Frutas</td>
+          <td>Piña,manzana, mango, pera, fresa,etc;A SOLO 5 SOLES EL KILO!!.</td>
         </tr>
                 <tr>
-          <td>Metadatos</td>
-          <td>Proporcionan información útil de los datos.</td>
+          <td>Abarrotes</td>
+          <td>Arroz, azucar, lentejas, harina, etc;A SOLO 5 SOLES EL KILO!!.</td>
         </tr>
   </table> 
     </div>
+    <section id="calc" class="card">
+      <h2>Calcula tu pedido</h2>
+      <div class="row">
+        <input id="numA" type="number" placeholder="Número A" />
+        <input id="numB" type="number" placeholder="Número B" />
+        <select id="op">
+          <option value="+">Sumar (+)</option>
+          <option value="-">Restar (-)</option>
+          <option value="*">Multiplicar (*)</option>
+          <option value="/">Dividir (/)</option>
+          <option value="%">Resto (%)</option>
+        </select>
+        <button id="calcBtn">Calcular</button>
+      </div>
+      <p id="calcResult">Resultado: —</p>
+    </section>
 </body>    
   <footer>
     <p>&copy; 2025 La pagina web de MSRM. Todos los derechos reservados.</p>
     <a href="index2.html">Ir a Sobre mi</a>
     <a href="index3.html">Ir a Contacto</a>
   </footer>
+  <script src="script.js" ></script>
 </html>
